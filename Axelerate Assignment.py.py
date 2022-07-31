@@ -49,38 +49,58 @@
 ##print("Hello " +Name+ ", you were born in the year", 0-Age+2022)
 ## 
 
+##Name = input("Enter your name: ")
+##Age = int(input("Enter your age: "))
+##
+##def getYear():
+##
+##    Year = 2022
+##
+##    return Year - Age
+##          
+##
+##print("Hello " + Name+
+##      ", you were born in the year", getYear())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Name = input("Enter your name: ")
 Age = int(input("Enter your age: "))
 
+
 def getYear():
+    return 2022- Age
 
     Year = 2022
-
-    return Year - Age
-          
-
-print("Hello " + Name+
-      ", you were born in the year", getYear())
+    
+print("Hello " +Name +
+      "you were born in the year: ",
+      getYear())
 
 
+# ENOCHGITHUBNK ASSIGNMENT ADDED
 
+Name=input("Please enter your Name?")
+Age=int(str("Please  Enter your Age?"))
+Current_Year= 2022
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def  Dob():
+    return Current_Year - Age
+print( "Please your name is  " + Name  + " and your  birth year is "  ,Dob())
 
 
 
